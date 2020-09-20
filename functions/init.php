@@ -16,5 +16,6 @@ $current = plugin_dir_path( __FILE__ );
 require_once $current . 'shortcode/extend.php';
 
 if( is_admin() ) {
+	require_once $current . 'admin/panel/edit.php';
 	require_once $current . 'admin/panel/menu.php';
 }
