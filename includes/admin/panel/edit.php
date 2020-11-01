@@ -2,11 +2,11 @@
 /**
  * Rewriting admin edit.
  *
- * @subpackage Sketchpad - modified - plugin 1.0
- * @since      Sketchpad - modified - plugin 1.0
+ * @subpackage sketchpad-modified-plugin
+ * @since      1.0.0
  */
 
-//  set a default order
+// set a default order
 function sketchpad_default_order_in_admin_edit( $wp_query ){
   global $pagenow;
   if ( $pagenow === 'edit.php' && $wp_query->query_vars['post_type'] === 'wp_block' && !isset($_GET['orderby'] ) ) {

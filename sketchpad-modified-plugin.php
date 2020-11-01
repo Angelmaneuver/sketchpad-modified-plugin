@@ -25,6 +25,6 @@ function sketchpad_modified_plugin_load_textdomain() {
 }
 
 // Initilaize.
-require_once plugin_dir_path( __FILE__ ) . 'functions/init.php';
+require_once plugin_dir_path( __FILE__ ) . 'includes/load.php';
 
 add_action( 'init', 'sketchpad_modified_plugin_load_textdomain' );

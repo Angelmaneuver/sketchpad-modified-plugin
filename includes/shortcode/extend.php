@@ -2,23 +2,9 @@
 /**
  * Short code created by extending an existing feature.
  *
- * @subpackage Sketchpad - modified - plugin 1.0
- * @since      Sketchpad - modified - plugin 1.0
+ * @subpackage sketchpad-modified-plugin
+ * @since      1.0.0
  */
-
-// has_tag customize for sketchpad - modified
-function sketchpad_has_tag( $atts ) {
-  $tag = $atts['tag'];
-  $true = $atts['true'];
-  $false = $atts['false'];
-  $result = '';
-
-  if( !empty( $tag ) && ( !empty( $true ) || !empty( $false ) ) ) {
-    $result = has_tag( $tag ) ? $true : $false;
-  }
-
-  return $result;
-}
 
 // return tag list
 function sketchpad_tag_cloud( $atts ) {
@@ -65,6 +51,5 @@ function sketchpad_wp_tag_cloud($args) {
 
 add_filter( 'widget_tag_cloud_args', 'sketchpad_wp_tag_cloud' );
 
-add_shortcode( 'sketchpad_has_tag', 'sketchpad_has_tag' );
 add_shortcode( 'sketchpad_tag_cloud', 'sketchpad_tag_cloud' );
 add_shortcode( 'sketchpad_get_avatar', 'sketchpad_get_avatar' );
