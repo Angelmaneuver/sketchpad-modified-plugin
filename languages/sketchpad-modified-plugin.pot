@@ -1,4 +1,4 @@
-# Copyright (C) 2020 Angelmaneuver
+# Copyright (C) 2021 Angelmaneuver
 # This file is distributed under the same license as the sketchpad-modified-plugin plugin.
 msgid ""
 msgstr ""
@@ -9,13 +9,17 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-09-20T15:31:31+00:00\n"
+"POT-Creation-Date: 2021-01-17T02:40:17+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.4.0\n"
 "X-Domain: sketchpad-modified-plugin\n"
 
 #. Plugin Name of the plugin
 msgid "sketchpad-modified-plugin"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/Angelmaneuver/sketchpad-modified-plugin"
 msgstr ""
 
 #. Description of the plugin
@@ -30,7 +34,7 @@ msgstr ""
 msgid "https://github.com/Angelmaneuver"
 msgstr ""
 
-#: functions/admin/panel/menu.php:12
-#: functions/admin/panel/menu.php:13
+#: includes/admin/panel/menu.php:17
+#: includes/admin/panel/menu.php:18
 msgid "Recycle Block"
 msgstr ""

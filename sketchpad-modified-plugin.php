@@ -19,9 +19,14 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-  
+
+/**
+ * Apply the translation.
+ *
+ * @since 1.0.0
+ */
 function sketchpad_modified_plugin_load_textdomain() {
-  load_plugin_textdomain( 'sketchpad-modified-plugin', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ); 
+	load_plugin_textdomain( 'sketchpad-modified-plugin', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 }
 
 // Initilaize.

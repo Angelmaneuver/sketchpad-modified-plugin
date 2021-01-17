@@ -1,12 +1,17 @@
 <?php
 /**
- * Rewriting admin panel menu.
+ * Overrides admin panel menu.
  *
- * @subpackage sketchpad-modified-plugin
- * @since      1.0.0
+ * @package sketchpad-modified-plugin
+ * @since 1.0.0
  */
 
-// add a recycle block editor
+/**
+ * Add a recycle block link.
+ *
+ * @since 1.0.0
+ * @see https://developer.wordpress.org/reference/hooks/admin_menu/
+ */
 function register_sketchpad_admin_menu() {
 	add_posts_page(
 		__( 'Recycle Block', 'sketchpad-modified-plugin' ),

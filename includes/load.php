@@ -1,9 +1,9 @@
 <?php
 /**
  * These functions are needed to load sketchpad - modified plugin.
- * 
- * @subpackage sketchpad-modified-plugin
- * @since      1.0.0
+ *
+ * @package sketchpad-modified-plugin
+ * @since 1.0.0
  */
 
 // Exit if accessed directly.
@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 $current = plugin_dir_path( __FILE__ );
 
-if( is_admin() ) {
+if ( is_admin() ) {
 	require_once $current . 'admin/panel/edit.php';
 	require_once $current . 'admin/panel/menu.php';
 }
