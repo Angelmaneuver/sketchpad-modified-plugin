@@ -40,7 +40,7 @@ function sketchpad_tag_cloud( $atts ) {
 		'order'                     => 'ASC',
 		'exclude'                   => null,
 		'include'                   => null,
-		'topic_count_text_callback' => default_topic_count_scale,
+		'topic_count_text_callback' => null,
 		'link'                      => 'view',
 		'taxonomy'                  => 'post_tag',
 		'echo'                      => false,
