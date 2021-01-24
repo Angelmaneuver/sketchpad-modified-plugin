@@ -14,8 +14,8 @@
  */
 function register_sketchpad_admin_menu() {
 	add_posts_page(
-		__( 'Recycle Block', 'sketchpad-modified-plugin' ),
-		__( 'Recycle Block', 'sketchpad-modified-plugin' ),
+		_x( 'Reusable Blocks', 'block category' ),
+		_x( 'Reusable Blocks', 'block category' ),
 		'edit_dashboard',
 		'edit.php?post_type=wp_block'
 	);

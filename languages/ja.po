@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sketchpad-modified-plugin 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sketchpad-modified-plugin\n"
-"POT-Creation-Date: 2021-01-17T02:40:17+00:00\n"
+"POT-Creation-Date: 2021-01-24T12:47:30+00:00\n"
 "PO-Revision-Date: 2020-09-20 15:36+0000\n"
 "Last-Translator: root <f_a-18hornet@hotmail.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -35,7 +35,3 @@ msgstr ""
 #. Author URI of the plugin
 msgid "https://github.com/Angelmaneuver"
 msgstr ""
-
-#: includes/admin/panel/menu.php:17 includes/admin/panel/menu.php:18
-msgid "Recycle Block"
-msgstr "再利用ブロック"
