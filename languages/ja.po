@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sketchpad-modified-plugin 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sketchpad-modified-plugin\n"
-"POT-Creation-Date: 2021-01-24T12:47:30+00:00\n"
+"POT-Creation-Date: 2021-09-29T15:18:58+00:00\n"
 "PO-Revision-Date: 2020-09-20 15:36+0000\n"
 "Last-Translator: root <f_a-18hornet@hotmail.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -17,7 +17,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Plugin Name of the plugin
-msgid "sketchpad-modified-plugin"
+#: includes/admin/class/class-smp-admin.php:31
+msgid "Sketchpad modified - Plugin"
 msgstr ""
 
 #. Plugin URI of the plugin
@@ -25,8 +26,8 @@ msgid "https://github.com/Angelmaneuver/sketchpad-modified-plugin"
 msgstr ""
 
 #. Description of the plugin
-msgid "sketchpad-modified-plugin — is a custom plugin for myself."
-msgstr ""
+msgid "Custom plugin for myself."
+msgstr "自分向けのプラグイン。"
 
 #. Author of the plugin
 msgid "Angelmaneuver"
@@ -35,3 +36,27 @@ msgstr ""
 #. Author URI of the plugin
 msgid "https://github.com/Angelmaneuver"
 msgstr ""
+
+#: includes/admin/class/class-smp-admin.php:34
+msgid "Extend Settings"
+msgstr "拡張設定"
+
+#: includes/admin/class/class-smp-admin.php:69
+msgid "Extend of administration screen"
+msgstr "管理画面の拡張"
+
+#: includes/admin/class/class-smp-admin.php:78
+msgid "Reusable Block link"
+msgstr "再利用ブロックリンク"
+
+#: includes/admin/class/class-smp-admin.php:84
+msgid "Add a link to the Reusable Block in the post menu."
+msgstr "投稿メニューに再利用ブロックへのリンクを追加する"
+
+#: includes/admin/class/class-smp-admin.php:94
+msgid "Reusable Block list order"
+msgstr "再利用ブロック一覧の順序"
+
+#: includes/admin/class/class-smp-admin.php:100
+msgid "Set the initial order of the Reusable Block list to title order."
+msgstr "再利用ブロック一覧の初期順序をタイトル順にする"

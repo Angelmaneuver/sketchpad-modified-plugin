@@ -2,15 +2,15 @@
 /**
  * Overrides admin panel menu.
  *
- * @package sketchpad-modified-plugin
- * @since 1.0.0
+ * @package Sketchpad modified - Plugin
+ * @since   0.1.0
  */
 
 /**
- * Add a recycle block link.
+ * Add a Recycle Block link.
  *
- * @since 1.0.0
- * @see https://developer.wordpress.org/reference/hooks/admin_menu/
+ * @since 0.1.0
+ * @see   https://developer.wordpress.org/reference/hooks/admin_menu/
  */
 function register_sketchpad_admin_menu() {
 	add_posts_page(
@@ -21,4 +21,6 @@ function register_sketchpad_admin_menu() {
 	);
 }
 
-add_action( 'admin_menu', 'register_sketchpad_admin_menu' );
+if ( '1' === get_option( 'add_reusable_blocks_link', '0' ) ) {
+	add_action( 'admin_menu', 'register_sketchpad_admin_menu' );
+}

@@ -2,16 +2,16 @@
 /**
  * Overrides admin edit.
  *
- * @package sketchpad-modified-plugin
- * @since 1.0.0
+ * @package Sketchpad modified - Plugin
+ * @since   0.1.0
  */
 
 /**
  * Overrides the sort condition of the recycle block list.
  *
- * @since 1.0.0
+ * @since 0.1.0
  * @param WP_Query $wp_query WP_Query instance.
- * @see https://developer.wordpress.org/reference/hooks/pre_get_posts/
+ * @see   https://developer.wordpress.org/reference/hooks/pre_get_posts/
  */
 function sketchpad_default_order_in_admin_edit( $wp_query ) {
 	global $pagenow;
@@ -21,4 +21,6 @@ function sketchpad_default_order_in_admin_edit( $wp_query ) {
 	}
 }
 
-add_filter( 'pre_get_posts', 'sketchpad_default_order_in_admin_edit' );
+if ( '1' === get_option( 'wp_block_sort_title', '0' ) ) {
+	add_filter( 'pre_get_posts', 'sketchpad_default_order_in_admin_edit' );
+}

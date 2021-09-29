@@ -2,8 +2,8 @@
 /**
  * Short code created by extending an existing feature.
  *
- * @package sketchpad-modified-plugin
- * @since 1.0.0
+ * @package Sketchpad modified - Plugin
+ * @since   0.1.0
  */
 
 /**

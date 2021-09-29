@@ -1,9 +1,8 @@
 <?php
 /**
- * These functions are needed to load sketchpad - modified plugin.
+ * These functions are needed to execute Sketchpad modified - Plugin.
  *
- * @package sketchpad-modified-plugin
- * @since 1.0.0
+ * @package Sketchpad modified - Plugin
  */
 
 // Exit if accessed directly.
@@ -11,12 +10,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-$current = plugin_dir_path( __FILE__ );
-
 if ( is_admin() ) {
-	require_once $current . 'admin/panel/edit.php';
-	require_once $current . 'admin/panel/menu.php';
+	require_once __DIR__ . '/admin/load.php';
 }
 
-require_once $current . 'shortcode/extend.php';
-require_once $current . 'shortcode/image.php';
+require_once __DIR__ . '/shortcode/extend.php';
