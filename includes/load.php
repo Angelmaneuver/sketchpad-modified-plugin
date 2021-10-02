@@ -10,6 +10,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+/**
+ * Modules loading.
+ */
 if ( is_admin() ) {
 	require_once __DIR__ . '/admin/load.php';
 }
+
+require_once __DIR__ . '/remove/load.php';

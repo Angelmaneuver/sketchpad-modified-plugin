@@ -61,8 +61,19 @@ class SMP_Admin extends SMP_Abstract_Admin {
 			<?php
 		};
 
+		register_setting( 'sketchpad-modified-plugin', 'remove_edituri_link' );
+		register_setting( 'sketchpad-modified-plugin', 'remove_wlwmanifest_link' );
 		register_setting( 'sketchpad-modified-plugin', 'add_reusable_blocks_link' );
 		register_setting( 'sketchpad-modified-plugin', 'wp_block_sort_title' );
+
+		add_settings_section(
+			'extend_html_head_screen',
+			__( 'Extend of HTML documents meta data.', 'sketchpad-modified-plugin' ),
+			function( $args ) {
+				return;
+			},
+			'sketchpad-modified-plugin'
+		);
 
 		add_settings_section(
 			'extend_admin_screen',
@@ -71,6 +82,38 @@ class SMP_Admin extends SMP_Abstract_Admin {
 				return;
 			},
 			'sketchpad-modified-plugin'
+		);
+
+		add_settings_field(
+			'remove_edituri_link',
+			__( 'EditURI', 'sketchpad-modified-plugin' ),
+			$checkbox_render,
+			'sketchpad-modified-plugin',
+			'extend_html_head_screen',
+			array(
+				'option_key'    => 'remove_edituri_link',
+				'label_comment' => __(
+					'Stop the output of EditURI link.',
+					'sketchpad-modified-plugin'
+				),
+				'comment'       => '',
+			)
+		);
+
+		add_settings_field(
+			'remove_wlwmanifest_link',
+			__( 'wlwmanifest', 'sketchpad-modified-plugin' ),
+			$checkbox_render,
+			'sketchpad-modified-plugin',
+			'extend_html_head_screen',
+			array(
+				'option_key'    => 'remove_wlwmanifest_link',
+				'label_comment' => __(
+					'Stop the output of wlwmanifest link.',
+					'sketchpad-modified-plugin'
+				),
+				'comment'       => '',
+			)
 		);
 
 		add_settings_field(
