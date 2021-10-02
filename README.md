@@ -1,4 +1,4 @@
-# Sketchpad modified - Blocks
+# Sketchpad modified - Plugin
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/ff486dcc2730c5cf9645/maintainability)](https://codeclimate.com/github/Angelmaneuver/sketchpad-modified-plugin/maintainability) ![GitHub](https://img.shields.io/github/license/angelmaneuver/sketchpad-modified-plugin)
 
