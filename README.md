@@ -1,11 +1,13 @@
-# sketchpad-modified-plugin
+# Sketchpad modified - Blocks
 
-This is a custom plugin for myself.
+[![Maintainability](https://api.codeclimate.com/v1/badges/ff486dcc2730c5cf9645/maintainability)](https://codeclimate.com/github/Angelmaneuver/sketchpad-modified-plugin/maintainability) ![GitHub](https://img.shields.io/github/license/angelmaneuver/sketchpad-modified-plugin)
 
-## Demo
+Custom plugin for myself.
 
-My Blog Site [Meaningless Notebook](https://gokugetsu.plala.jp/)
+![Screen Shot](resource/readme/screenshot.jpg)
 
-## License
-
-[GNU General Public License V3](https://www.gnu.org/licenses/gpl-3.0.html)
+## Feature
+ - Stop the output of EditURI link
+ - Stop the output of wlwmanifest link
+ - Add a link to the Reusable Block in the post menu
+ - Set the initial order of the Reusable Block list to title order
