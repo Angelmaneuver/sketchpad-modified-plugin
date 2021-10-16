@@ -99,15 +99,17 @@ abstract class SMP_Abstract_Admin {
 	}
 
 	/**
-	 * Abstract method.
-	 *
 	 * Register the settings.
 	 *
 	 * @return void
 	 *
 	 * @since  0.1.0
 	 */
-	abstract public function setup_settings(): void;
+	public function setup_settings(): void {
+		$this->register_settings();
+		$this->add_settings_sections();
+		$this->add_settings_fields();
+	}
 
 	/**
 	 * Abstract method.
@@ -143,4 +145,31 @@ abstract class SMP_Abstract_Admin {
 			return;
 		}
 	}
+
+	/**
+	 * Register the settings.
+	 *
+	 * @return void
+	 *
+	 * @since  0.1.0
+	 */
+	protected function register_settings(): void {}
+
+	/**
+	 * Add settings sections.
+	 *
+	 * @return void
+	 *
+	 * @since  0.1.0
+	 */
+	protected function add_settings_sections(): void {}
+
+	/**
+	 * Add settings fields.
+	 *
+	 * @return void
+	 *
+	 * @since  0.1.0
+	 */
+	protected function add_settings_fields(): void {}
 }

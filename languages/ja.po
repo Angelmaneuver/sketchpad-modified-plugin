@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sketchpad-modified-plugin 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sketchpad-modified-plugin\n"
-"POT-Creation-Date: 2021-10-02T07:52:11+00:00\n"
+"POT-Creation-Date: 2021-10-16T12:08:02+00:00\n"
 "PO-Revision-Date: 2020-09-20 15:36+0000\n"
 "Last-Translator: root <f_a-18hornet@hotmail.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -41,42 +41,42 @@ msgstr ""
 msgid "Extend Settings"
 msgstr "拡張設定"
 
-#: includes/admin/class/class-smp-admin.php:71
+#: includes/admin/class/class-smp-admin.php:137
 msgid "Extend of HTML documents meta data."
 msgstr "HTMLドキュメントメタデータの拡張"
 
-#: includes/admin/class/class-smp-admin.php:80
+#: includes/admin/class/class-smp-admin.php:144
 msgid "Extend of administration screen"
 msgstr "管理画面の拡張"
 
-#: includes/admin/class/class-smp-admin.php:89
+#: includes/admin/class/class-smp-admin.php:160
 msgid "EditURI"
 msgstr ""
 
-#: includes/admin/class/class-smp-admin.php:95
+#: includes/admin/class/class-smp-admin.php:166
 msgid "Stop the output of EditURI link."
 msgstr "EditURIリンクの出力を停止させる"
 
-#: includes/admin/class/class-smp-admin.php:105
+#: includes/admin/class/class-smp-admin.php:175
 msgid "wlwmanifest"
 msgstr ""
 
-#: includes/admin/class/class-smp-admin.php:111
+#: includes/admin/class/class-smp-admin.php:181
 msgid "Stop the output of wlwmanifest link."
 msgstr "wlwmanifestリンクの出力を停止させる"
 
-#: includes/admin/class/class-smp-admin.php:121
+#: includes/admin/class/class-smp-admin.php:190
 msgid "Reusable Block link"
 msgstr "再利用ブロックリンク"
 
-#: includes/admin/class/class-smp-admin.php:127
+#: includes/admin/class/class-smp-admin.php:196
 msgid "Add a link to the Reusable Block in the post menu."
 msgstr "投稿メニューに再利用ブロックへのリンクを追加する"
 
-#: includes/admin/class/class-smp-admin.php:137
+#: includes/admin/class/class-smp-admin.php:205
 msgid "Reusable Block list order"
 msgstr "再利用ブロック一覧の順序"
 
-#: includes/admin/class/class-smp-admin.php:143
+#: includes/admin/class/class-smp-admin.php:211
 msgid "Set the initial order of the Reusable Block list to title order."
 msgstr "再利用ブロック一覧の初期順序をタイトル順にする"
