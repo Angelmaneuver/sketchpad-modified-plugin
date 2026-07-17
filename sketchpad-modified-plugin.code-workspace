@@ -10,13 +10,19 @@
 		"editor.detectIndentation": false,
 		"files.insertFinalNewline": true,
 		"files.trimFinalNewlines": true,
+		"[php]": {
+			"editor.defaultFormatter": "valeryanm.vscode-phpsab",
+			"editor.formatOnSave": true,
+		},
 		"[scss]": {
 			"editor.insertSpaces": true,
 			"editor.tabSize": 2,
 		},
 		"auto-rename-tag.activationOnLanguage": ["*"],
-		"phpcs.executablePath": "./vendor/bin/phpcs",
-		"phpcs.standard": "WordPress",
+		"php.suggest.basic": false,
+		"php.validate.enable": false,
+		"php.validate.executablePath": null,
+		"phpsab.standard": "WordPress",
 		"intelephense.files.exclude": [
 			"**/.git/**",
 			"**/.svn/**",
@@ -103,17 +109,17 @@
 	},
 	"extensions": {
 		"recommendations": [
-			"mosapride.zenkaku",
 			"christian-kohler.path-intellisense",
 			"formulahendry.auto-rename-tag",
 			"zignd.html-css-class-completion",
-			"shevaua.phpcs",
+			"valeryanm.vscode-phpsab",
 			"bmewburn.vscode-intelephense-client",
 			"neilbrayfield.php-docblocker",
 			"anthonydiametrix.acf-snippet",
 			"wordpresstoolbox.wordpress-toolbox",
 			"johnbillion.vscode-wordpress-hooks",
 			"xdebug.php-debug",
+			"angelmaneuver.command-launcher",
 		]
 	},
 	"launch": {
