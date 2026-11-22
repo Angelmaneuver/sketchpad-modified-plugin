@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sketchpad-modified-plugin 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sketchpad-modified-plugin\n"
-"POT-Creation-Date: 2021-10-16T12:08:02+00:00\n"
+"POT-Creation-Date: 2026-11-22T18:45:06+00:00\n"
 "PO-Revision-Date: 2020-09-20 15:36+0000\n"
 "Last-Translator: root <f_a-18hornet@hotmail.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -17,66 +17,220 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Plugin Name of the plugin
-#: includes/admin/class/class-smp-admin.php:31
+#: plugin.php includes/admin/pages/class-extend-settings-page.php:69
 msgid "Sketchpad modified - Plugin"
 msgstr ""
 
 #. Plugin URI of the plugin
+#: plugin.php
 msgid "https://github.com/Angelmaneuver/sketchpad-modified-plugin"
 msgstr ""
 
 #. Description of the plugin
-msgid "Custom plugin for myself."
-msgstr "自分向けのプラグイン。"
+#: plugin.php
+msgid "We'll add features that aren't included in WordPress's standard functionality."
+msgstr "WordPressの標準機能には含まれていない機能を追加します。"
 
 #. Author of the plugin
+#: plugin.php
 msgid "Angelmaneuver"
 msgstr ""
 
 #. Author URI of the plugin
+#: plugin.php
 msgid "https://github.com/Angelmaneuver"
 msgstr ""
 
-#: includes/admin/class/class-smp-admin.php:34
+#: includes/admin/classes/abc/render/file-upload.php:27
+#: includes/admin/classes/abc/render/file-upload.php:29
+msgid "Select an image"
+msgstr "画像を選択"
+
+#: includes/admin/classes/abc/render/file-upload.php:28
+msgid "Set this image"
+msgstr "この画像を設定"
+
+#: includes/admin/classes/abc/render/file-upload.php:30
+msgid "Change an image"
+msgstr "画像を変更"
+
+#: includes/admin/classes/abc/render/file-upload.php:31
+msgid "Delete an image"
+msgstr "画像を削除"
+
+#: includes/admin/classes/abc/render/range.php:43
+#: includes/admin/classes/abc/render/textarea.php:36
+msgid "Reset to default"
+msgstr "初期値に戻す"
+
+#: includes/admin/pages/class-extend-settings-page.php:78
 msgid "Extend Settings"
 msgstr "拡張設定"
 
-#: includes/admin/class/class-smp-admin.php:137
-msgid "Extend of HTML documents meta data."
-msgstr "HTMLドキュメントメタデータの拡張"
+#: includes/admin/pages/class-extend-settings-page.php:88
+msgid "Site Setting"
+msgstr "サイト設定"
 
-#: includes/admin/class/class-smp-admin.php:144
-msgid "Extend of administration screen"
-msgstr "管理画面の拡張"
+#: includes/admin/pages/class-extend-settings-page.php:89
+msgid "Post Setting"
+msgstr "投稿設定"
 
-#: includes/admin/class/class-smp-admin.php:160
+#: includes/admin/pages/class-extend-settings-page.php:90
+#: includes/admin/pages/class-extend-settings-page.php:287
+msgid "Admin Page Setting"
+msgstr "管理画面設定"
+
+#: includes/admin/pages/class-extend-settings-page.php:91
+msgid "Other Setting"
+msgstr "その他の設定"
+
+#: includes/admin/pages/class-extend-settings-page.php:251
+msgid "Head Tag Setting"
+msgstr "Headタグ設定"
+
+#: includes/admin/pages/class-extend-settings-page.php:253
+msgid "You can insert html code into the head tag."
+msgstr "htmlコードをheadタグ内に挿入することができます。"
+
+#: includes/admin/pages/class-extend-settings-page.php:260
+msgid "Body Tag Setting"
+msgstr "Bodyタグ設定"
+
+#: includes/admin/pages/class-extend-settings-page.php:262
+msgid "You can insert html code into the body tag."
+msgstr "htmlコードをbodyタグ内に挿入することができます。"
+
+#: includes/admin/pages/class-extend-settings-page.php:269
+msgid "Article Title Setting"
+msgstr "記事タイトル設定"
+
+#: includes/admin/pages/class-extend-settings-page.php:271
+msgid "Please enter if you want to add text to all article titles."
+msgstr "全ての記事のタイトルにテキストを追加したい場合は、ここに入力してください。"
+
+#: includes/admin/pages/class-extend-settings-page.php:278
+msgid "Page Title Setting"
+msgstr "ページタイトル設定"
+
+#: includes/admin/pages/class-extend-settings-page.php:280
+msgid "Please enter if you want to add text to all page titles."
+msgstr "全てのページのタイトルにテキストを追加したい場合は、ここに入力してください。"
+
+#: includes/admin/pages/class-extend-settings-page.php:289
+msgid "Please enter if you want to background image for the admin panel."
+msgstr "管理画面の背景画像を設定したい場合は入力してください。"
+
+#: includes/admin/pages/class-extend-settings-page.php:296
+msgid "Add Feature"
+msgstr "追加機能"
+
+#: includes/admin/pages/class-extend-settings-page.php:298
+msgid "Adds new features to WordPress's standard feature."
+msgstr "WordPressの標準機能に新しい機能を追加します。"
+
+#: includes/admin/pages/class-extend-settings-page.php:305
+msgid "Disable Feature"
+msgstr "無効機能"
+
+#: includes/admin/pages/class-extend-settings-page.php:307
+msgid "Disable WordPress's default features."
+msgstr "WordPressの標準機能を無効にします。"
+
+#: includes/admin/pages/class-extend-settings-page.php:343
+#: includes/admin/pages/class-extend-settings-page.php:385
+#: includes/admin/pages/class-extend-settings-page.php:435
+#: includes/admin/pages/class-extend-settings-page.php:462
+#: includes/admin/pages/class-extend-settings-page.php:498
+msgid "Enable."
+msgstr "有効にする。"
+
+#: includes/admin/pages/class-extend-settings-page.php:352
+#: includes/admin/pages/class-extend-settings-page.php:394
+msgid "Insert Elements"
+msgstr "挿入要素"
+
+#: includes/admin/pages/class-extend-settings-page.php:363
+#: includes/admin/pages/class-extend-settings-page.php:405
+msgid "Priority"
+msgstr "優先度"
+
+#: includes/admin/pages/class-extend-settings-page.php:373
+msgid "The farther left you slide, the more the output will be directed to the head tag."
+msgstr "左にスライドするほどheadタグへの出力が早くなります。"
+
+#: includes/admin/pages/class-extend-settings-page.php:415
+msgid "The farther left you slide, the more the output will be directed to the body tag."
+msgstr "左にスライドするほどbodyタグへの出力が早くなります。"
+
+#: includes/admin/pages/class-extend-settings-page.php:444
+msgid "Extend all article titles"
+msgstr "全ての記事タイトルを拡張する"
+
+#: includes/admin/pages/class-extend-settings-page.php:450
+msgid "* The title of the article is set at location specified by the \"{title}\" keyword."
+msgstr "* 記事のタイトルが、\"{title}\"キーワードで指定された箇所に設定されます。"
+
+#: includes/admin/pages/class-extend-settings-page.php:471
+msgid "Extend all page titles"
+msgstr "全てのページタイトルを拡張する"
+
+#: includes/admin/pages/class-extend-settings-page.php:477
+msgid "* The title of the page is set at location specified by the \"{title}\" keyword."
+msgstr "* ページのタイトルが、\"{title}\"キーワードで指定された箇所に設定されます。"
+
+#: includes/admin/pages/class-extend-settings-page.php:507
+msgid "Background image"
+msgstr "背景画像"
+
+#: includes/admin/pages/class-extend-settings-page.php:514
+#: includes/admin/pages/class-extend-settings-page.php:516
+msgid "Select a background image"
+msgstr "背景画像を選択"
+
+#: includes/admin/pages/class-extend-settings-page.php:515
+msgid "Set as a background image"
+msgstr "背景画像を設定"
+
+#: includes/admin/pages/class-extend-settings-page.php:517
+msgid "Change the background image"
+msgstr "背景画像を変更"
+
+#: includes/admin/pages/class-extend-settings-page.php:518
+msgid "Remove the background image"
+msgstr "背景画像を削除"
+
+#: includes/admin/pages/class-extend-settings-page.php:525
+msgid "Background color"
+msgstr "背景色"
+
+#: includes/admin/pages/class-extend-settings-page.php:537
+msgid "Transparency"
+msgstr "透過率"
+
+#: includes/admin/pages/class-extend-settings-page.php:547
+msgid "The farther left you slide, the more transparent the image becomes."
+msgstr "左にスライドするほど透明度が高くなります。"
+
+#: includes/admin/pages/class-extend-settings-page.php:553
+msgid "DOM to make transparent"
+msgstr "透過させるDOM"
+
+#: includes/admin/pages/class-extend-settings-page.php:560
+msgid "Enter the DOM elements you want to make transparent."
+msgstr "透過させたいDOM要素を入力してください。"
+
+#: includes/admin/pages/class-extend-settings-page.php:575
 msgid "EditURI"
 msgstr ""
 
-#: includes/admin/class/class-smp-admin.php:166
+#: includes/admin/pages/class-extend-settings-page.php:581
 msgid "Stop the output of EditURI link."
 msgstr "EditURIリンクの出力を停止させる"
 
-#: includes/admin/class/class-smp-admin.php:175
-msgid "wlwmanifest"
-msgstr ""
+#: includes/admin/pages/class-extend-settings-page.php:590
+msgid "RSS Eye-Catch"
+msgstr "RSSアイチャッチ"
 
-#: includes/admin/class/class-smp-admin.php:181
-msgid "Stop the output of wlwmanifest link."
-msgstr "wlwmanifestリンクの出力を停止させる"
-
-#: includes/admin/class/class-smp-admin.php:190
-msgid "Reusable Block link"
-msgstr "再利用ブロックリンク"
-
-#: includes/admin/class/class-smp-admin.php:196
-msgid "Add a link to the Reusable Block in the post menu."
-msgstr "投稿メニューに再利用ブロックへのリンクを追加する"
-
-#: includes/admin/class/class-smp-admin.php:205
-msgid "Reusable Block list order"
-msgstr "再利用ブロック一覧の順序"
-
-#: includes/admin/class/class-smp-admin.php:211
-msgid "Set the initial order of the Reusable Block list to title order."
-msgstr "再利用ブロック一覧の初期順序をタイトル順にする"
+#: includes/admin/pages/class-extend-settings-page.php:596
+msgid "Display Featured Images in RSS Feeds."
+msgstr "RSSフィードにアイキャッチ画像を表示する。"
