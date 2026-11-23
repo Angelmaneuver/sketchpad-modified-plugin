@@ -1,13 +1,14 @@
 # Sketchpad modified - Plugin
+![Screen Shot](screenshot.png)
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/ff486dcc2730c5cf9645/maintainability)](https://codeclimate.com/github/Angelmaneuver/sketchpad-modified-plugin/maintainability) ![GitHub](https://img.shields.io/github/license/angelmaneuver/sketchpad-modified-plugin)
+## Description
+We'll add features that aren't included in WordPress's standard functionality.
 
-Custom plugin for myself.
+## Features
+* Site setting       (Insert html into head and body tag.)
+* Post setting       (Extend article and page title.)
+* Admin page setting (Set an background image for the admin page.)
+* Other setting      (Add a eye-catch for RSS feeds, disable EditURI meta link.)
 
-![Screen Shot](resource/readme/screenshot.jpg)
-
-## Feature
- - Stop the output of EditURI link
- - Stop the output of wlwmanifest link
- - Add a link to the Reusable Block in the post menu
- - Set the initial order of the Reusable Block list to title order
+## Translation
+* Japanese (ja)
