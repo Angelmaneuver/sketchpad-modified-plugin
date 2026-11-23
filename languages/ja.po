@@ -122,7 +122,7 @@ msgstr "管理画面の背景画像を設定したい場合は入力してくだ
 
 #: includes/admin/pages/class-extend-settings-page.php:296
 msgid "Add Feature"
-msgstr "追加機能"
+msgstr "機能追加"
 
 #: includes/admin/pages/class-extend-settings-page.php:298
 msgid "Adds new features to WordPress's standard feature."
@@ -130,7 +130,7 @@ msgstr "WordPressの標準機能に新しい機能を追加します。"
 
 #: includes/admin/pages/class-extend-settings-page.php:305
 msgid "Disable Feature"
-msgstr "無効機能"
+msgstr "機能無効化"
 
 #: includes/admin/pages/class-extend-settings-page.php:307
 msgid "Disable WordPress's default features."
