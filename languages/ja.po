@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sketchpad-modified-plugin 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sketchpad-modified-plugin\n"
-"POT-Creation-Date: 2026-11-22T18:45:06+00:00\n"
+"POT-Creation-Date: 2026-11-23T06:57:40+00:00\n"
 "PO-Revision-Date: 2020-09-20 15:36+0000\n"
 "Last-Translator: root <f_a-18hornet@hotmail.co.jp>\n"
 "Language-Team: Japanese\n"
@@ -76,7 +76,7 @@ msgid "Post Setting"
 msgstr "投稿設定"
 
 #: includes/admin/pages/class-extend-settings-page.php:90
-#: includes/admin/pages/class-extend-settings-page.php:287
+#: includes/admin/pages/class-extend-settings-page.php:289
 msgid "Admin Page Setting"
 msgstr "管理画面設定"
 
@@ -84,153 +84,169 @@ msgstr "管理画面設定"
 msgid "Other Setting"
 msgstr "その他の設定"
 
-#: includes/admin/pages/class-extend-settings-page.php:251
+#: includes/admin/pages/class-extend-settings-page.php:253
 msgid "Head Tag Setting"
 msgstr "Headタグ設定"
 
-#: includes/admin/pages/class-extend-settings-page.php:253
+#: includes/admin/pages/class-extend-settings-page.php:255
 msgid "You can insert html code into the head tag."
 msgstr "htmlコードをheadタグ内に挿入することができます。"
 
-#: includes/admin/pages/class-extend-settings-page.php:260
+#: includes/admin/pages/class-extend-settings-page.php:262
 msgid "Body Tag Setting"
 msgstr "Bodyタグ設定"
 
-#: includes/admin/pages/class-extend-settings-page.php:262
+#: includes/admin/pages/class-extend-settings-page.php:264
 msgid "You can insert html code into the body tag."
 msgstr "htmlコードをbodyタグ内に挿入することができます。"
 
-#: includes/admin/pages/class-extend-settings-page.php:269
+#: includes/admin/pages/class-extend-settings-page.php:271
 msgid "Article Title Setting"
 msgstr "記事タイトル設定"
 
-#: includes/admin/pages/class-extend-settings-page.php:271
+#: includes/admin/pages/class-extend-settings-page.php:273
 msgid "Please enter if you want to add text to all article titles."
 msgstr "全ての記事のタイトルにテキストを追加したい場合は、ここに入力してください。"
 
-#: includes/admin/pages/class-extend-settings-page.php:278
+#: includes/admin/pages/class-extend-settings-page.php:280
 msgid "Page Title Setting"
 msgstr "ページタイトル設定"
 
-#: includes/admin/pages/class-extend-settings-page.php:280
+#: includes/admin/pages/class-extend-settings-page.php:282
 msgid "Please enter if you want to add text to all page titles."
 msgstr "全てのページのタイトルにテキストを追加したい場合は、ここに入力してください。"
 
-#: includes/admin/pages/class-extend-settings-page.php:289
+#: includes/admin/pages/class-extend-settings-page.php:291
 msgid "Please enter if you want to background image for the admin panel."
 msgstr "管理画面の背景画像を設定したい場合は入力してください。"
 
-#: includes/admin/pages/class-extend-settings-page.php:296
+#: includes/admin/pages/class-extend-settings-page.php:298
 msgid "Add Feature"
 msgstr "機能追加"
 
-#: includes/admin/pages/class-extend-settings-page.php:298
+#: includes/admin/pages/class-extend-settings-page.php:300
 msgid "Adds new features to WordPress's standard feature."
 msgstr "WordPressの標準機能に新しい機能を追加します。"
 
-#: includes/admin/pages/class-extend-settings-page.php:305
+#: includes/admin/pages/class-extend-settings-page.php:307
 msgid "Disable Feature"
 msgstr "機能無効化"
 
-#: includes/admin/pages/class-extend-settings-page.php:307
+#: includes/admin/pages/class-extend-settings-page.php:309
 msgid "Disable WordPress's default features."
 msgstr "WordPressの標準機能を無効にします。"
 
-#: includes/admin/pages/class-extend-settings-page.php:343
-#: includes/admin/pages/class-extend-settings-page.php:385
-#: includes/admin/pages/class-extend-settings-page.php:435
-#: includes/admin/pages/class-extend-settings-page.php:462
-#: includes/admin/pages/class-extend-settings-page.php:498
+#: includes/admin/pages/class-extend-settings-page.php:316
+msgid "Disable Feature (Jetpack)"
+msgstr "機能無効化 (Jetpack)"
+
+#: includes/admin/pages/class-extend-settings-page.php:318
+msgid "Disable Jetpack's default features."
+msgstr "Jetpackの標準機能を無効にします。"
+
+#: includes/admin/pages/class-extend-settings-page.php:354
+#: includes/admin/pages/class-extend-settings-page.php:396
+#: includes/admin/pages/class-extend-settings-page.php:446
+#: includes/admin/pages/class-extend-settings-page.php:473
+#: includes/admin/pages/class-extend-settings-page.php:509
 msgid "Enable."
 msgstr "有効にする。"
 
-#: includes/admin/pages/class-extend-settings-page.php:352
-#: includes/admin/pages/class-extend-settings-page.php:394
+#: includes/admin/pages/class-extend-settings-page.php:363
+#: includes/admin/pages/class-extend-settings-page.php:405
 msgid "Insert Elements"
 msgstr "挿入要素"
 
-#: includes/admin/pages/class-extend-settings-page.php:363
-#: includes/admin/pages/class-extend-settings-page.php:405
+#: includes/admin/pages/class-extend-settings-page.php:374
+#: includes/admin/pages/class-extend-settings-page.php:416
 msgid "Priority"
 msgstr "優先度"
 
-#: includes/admin/pages/class-extend-settings-page.php:373
+#: includes/admin/pages/class-extend-settings-page.php:384
 msgid "The farther left you slide, the more the output will be directed to the head tag."
 msgstr "左にスライドするほどheadタグへの出力が早くなります。"
 
-#: includes/admin/pages/class-extend-settings-page.php:415
+#: includes/admin/pages/class-extend-settings-page.php:426
 msgid "The farther left you slide, the more the output will be directed to the body tag."
 msgstr "左にスライドするほどbodyタグへの出力が早くなります。"
 
-#: includes/admin/pages/class-extend-settings-page.php:444
+#: includes/admin/pages/class-extend-settings-page.php:455
 msgid "Extend all article titles"
 msgstr "全ての記事タイトルを拡張する"
 
-#: includes/admin/pages/class-extend-settings-page.php:450
+#: includes/admin/pages/class-extend-settings-page.php:461
 msgid "* The title of the article is set at location specified by the \"{title}\" keyword."
 msgstr "* 記事のタイトルが、\"{title}\"キーワードで指定された箇所に設定されます。"
 
-#: includes/admin/pages/class-extend-settings-page.php:471
+#: includes/admin/pages/class-extend-settings-page.php:482
 msgid "Extend all page titles"
 msgstr "全てのページタイトルを拡張する"
 
-#: includes/admin/pages/class-extend-settings-page.php:477
+#: includes/admin/pages/class-extend-settings-page.php:488
 msgid "* The title of the page is set at location specified by the \"{title}\" keyword."
 msgstr "* ページのタイトルが、\"{title}\"キーワードで指定された箇所に設定されます。"
 
-#: includes/admin/pages/class-extend-settings-page.php:507
+#: includes/admin/pages/class-extend-settings-page.php:518
 msgid "Background image"
 msgstr "背景画像"
 
-#: includes/admin/pages/class-extend-settings-page.php:514
-#: includes/admin/pages/class-extend-settings-page.php:516
+#: includes/admin/pages/class-extend-settings-page.php:525
+#: includes/admin/pages/class-extend-settings-page.php:527
 msgid "Select a background image"
 msgstr "背景画像を選択"
 
-#: includes/admin/pages/class-extend-settings-page.php:515
+#: includes/admin/pages/class-extend-settings-page.php:526
 msgid "Set as a background image"
 msgstr "背景画像を設定"
 
-#: includes/admin/pages/class-extend-settings-page.php:517
+#: includes/admin/pages/class-extend-settings-page.php:528
 msgid "Change the background image"
 msgstr "背景画像を変更"
 
-#: includes/admin/pages/class-extend-settings-page.php:518
+#: includes/admin/pages/class-extend-settings-page.php:529
 msgid "Remove the background image"
 msgstr "背景画像を削除"
 
-#: includes/admin/pages/class-extend-settings-page.php:525
+#: includes/admin/pages/class-extend-settings-page.php:536
 msgid "Background color"
 msgstr "背景色"
 
-#: includes/admin/pages/class-extend-settings-page.php:537
+#: includes/admin/pages/class-extend-settings-page.php:548
 msgid "Transparency"
 msgstr "透過率"
 
-#: includes/admin/pages/class-extend-settings-page.php:547
+#: includes/admin/pages/class-extend-settings-page.php:558
 msgid "The farther left you slide, the more transparent the image becomes."
 msgstr "左にスライドするほど透明度が高くなります。"
 
-#: includes/admin/pages/class-extend-settings-page.php:553
+#: includes/admin/pages/class-extend-settings-page.php:564
 msgid "DOM to make transparent"
 msgstr "透過させるDOM"
 
-#: includes/admin/pages/class-extend-settings-page.php:560
+#: includes/admin/pages/class-extend-settings-page.php:571
 msgid "Enter the DOM elements you want to make transparent."
 msgstr "透過させたいDOM要素を入力してください。"
 
-#: includes/admin/pages/class-extend-settings-page.php:575
-msgid "EditURI"
-msgstr ""
-
-#: includes/admin/pages/class-extend-settings-page.php:581
-msgid "Stop the output of EditURI link."
-msgstr "EditURIリンクの出力を停止させる"
-
-#: includes/admin/pages/class-extend-settings-page.php:590
+#: includes/admin/pages/class-extend-settings-page.php:586
 msgid "RSS Eye-Catch"
 msgstr "RSSアイチャッチ"
 
-#: includes/admin/pages/class-extend-settings-page.php:596
+#: includes/admin/pages/class-extend-settings-page.php:592
 msgid "Display Featured Images in RSS Feeds."
 msgstr "RSSフィードにアイキャッチ画像を表示する。"
+
+#: includes/admin/pages/class-extend-settings-page.php:601
+msgid "EditURI"
+msgstr ""
+
+#: includes/admin/pages/class-extend-settings-page.php:607
+msgid "Stop the output of EditURI link."
+msgstr "EditURIリンクの出力を停止させる。"
+
+#: includes/admin/pages/class-extend-settings-page.php:616
+msgid "Implode Frontend CSS"
+msgstr "フロントエンドCSSの結合"
+
+#: includes/admin/pages/class-extend-settings-page.php:622
+msgid "Stop the output of implode frontend css."
+msgstr "フロントエンドCSSを結合して出力させない。"

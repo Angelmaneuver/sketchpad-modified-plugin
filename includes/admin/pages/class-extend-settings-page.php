@@ -236,6 +236,8 @@ class Extend_Settings_Page extends Abstract_Settings_Api_Tab_Page {
 
 		register_setting( static::$plugin_slug . '-other-setting', 'remove_edituri_link' );
 		add_option( 'remove_edituri_link', Flag::ON );
+
+		register_setting( static::$plugin_slug . '-other-setting', 'remove_implode_frontend_css' );
 	}
 
 	/**
@@ -305,6 +307,15 @@ class Extend_Settings_Page extends Abstract_Settings_Api_Tab_Page {
 			__( 'Disable Feature', 'sketchpad-modified-plugin' ),
 			function () {
 				echo '<p>' . esc_html__( "Disable WordPress's default features.", 'sketchpad-modified-plugin' ) . '</p>';
+			},
+			'sketchpad-modified-plugin-other-setting'
+		);
+
+		add_settings_section(
+			'disable_feature_jetpack',
+			__( 'Disable Feature (Jetpack)', 'sketchpad-modified-plugin' ),
+			function () {
+				echo '<p>' . esc_html__( "Disable Jetpack's default features.", 'sketchpad-modified-plugin' ) . '</p>';
 			},
 			'sketchpad-modified-plugin-other-setting'
 		);
@@ -571,6 +582,21 @@ class Extend_Settings_Page extends Abstract_Settings_Api_Tab_Page {
 	 */
 	private static function add_other_setting_fields(): void {
 		add_settings_field(
+			'add_rss_eyecatch',
+			__( 'RSS Eye-Catch', 'sketchpad-modified-plugin' ),
+			array( static::class, 'render_checkbox_item' ),
+			'sketchpad-modified-plugin-other-setting',
+			'add_feature',
+			array(
+				'key'   => 'add_rss_eyecatch',
+				'label' => __(
+					'Display Featured Images in RSS Feeds.',
+					'sketchpad-modified-plugin'
+				),
+			)
+		);
+
+		add_settings_field(
 			'remove_edituri_link',
 			__( 'EditURI', 'sketchpad-modified-plugin' ),
 			array( static::class, 'render_checkbox_item' ),
@@ -586,15 +612,15 @@ class Extend_Settings_Page extends Abstract_Settings_Api_Tab_Page {
 		);
 
 		add_settings_field(
-			'add_rss_eyecatch',
-			__( 'RSS Eye-Catch', 'sketchpad-modified-plugin' ),
+			'remove_implode_frontend_css',
+			__( 'Implode Frontend CSS', 'sketchpad-modified-plugin' ),
 			array( static::class, 'render_checkbox_item' ),
 			'sketchpad-modified-plugin-other-setting',
-			'add_feature',
+			'disable_feature_jetpack',
 			array(
-				'key'   => 'add_rss_eyecatch',
+				'key'   => 'remove_implode_frontend_css',
 				'label' => __(
-					'Display Featured Images in RSS Feeds.',
+					'Stop the output of implode frontend css.',
 					'sketchpad-modified-plugin'
 				),
 			)

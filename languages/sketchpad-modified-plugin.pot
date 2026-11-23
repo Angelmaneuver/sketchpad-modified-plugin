@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-11-22T18:45:06+00:00\n"
+"POT-Creation-Date: 2026-11-23T06:57:40+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: sketchpad-modified-plugin\n"
@@ -75,7 +75,7 @@ msgid "Post Setting"
 msgstr ""
 
 #: includes/admin/pages/class-extend-settings-page.php:90
-#: includes/admin/pages/class-extend-settings-page.php:287
+#: includes/admin/pages/class-extend-settings-page.php:289
 msgid "Admin Page Setting"
 msgstr ""
 
@@ -83,153 +83,169 @@ msgstr ""
 msgid "Other Setting"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:251
+#: includes/admin/pages/class-extend-settings-page.php:253
 msgid "Head Tag Setting"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:253
+#: includes/admin/pages/class-extend-settings-page.php:255
 msgid "You can insert html code into the head tag."
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:260
+#: includes/admin/pages/class-extend-settings-page.php:262
 msgid "Body Tag Setting"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:262
+#: includes/admin/pages/class-extend-settings-page.php:264
 msgid "You can insert html code into the body tag."
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:269
+#: includes/admin/pages/class-extend-settings-page.php:271
 msgid "Article Title Setting"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:271
+#: includes/admin/pages/class-extend-settings-page.php:273
 msgid "Please enter if you want to add text to all article titles."
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:278
+#: includes/admin/pages/class-extend-settings-page.php:280
 msgid "Page Title Setting"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:280
+#: includes/admin/pages/class-extend-settings-page.php:282
 msgid "Please enter if you want to add text to all page titles."
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:289
+#: includes/admin/pages/class-extend-settings-page.php:291
 msgid "Please enter if you want to background image for the admin panel."
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:296
+#: includes/admin/pages/class-extend-settings-page.php:298
 msgid "Add Feature"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:298
+#: includes/admin/pages/class-extend-settings-page.php:300
 msgid "Adds new features to WordPress's standard feature."
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:305
+#: includes/admin/pages/class-extend-settings-page.php:307
 msgid "Disable Feature"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:307
+#: includes/admin/pages/class-extend-settings-page.php:309
 msgid "Disable WordPress's default features."
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:343
-#: includes/admin/pages/class-extend-settings-page.php:385
-#: includes/admin/pages/class-extend-settings-page.php:435
-#: includes/admin/pages/class-extend-settings-page.php:462
-#: includes/admin/pages/class-extend-settings-page.php:498
-msgid "Enable."
+#: includes/admin/pages/class-extend-settings-page.php:316
+msgid "Disable Feature (Jetpack)"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:352
-#: includes/admin/pages/class-extend-settings-page.php:394
-msgid "Insert Elements"
+#: includes/admin/pages/class-extend-settings-page.php:318
+msgid "Disable Jetpack's default features."
+msgstr ""
+
+#: includes/admin/pages/class-extend-settings-page.php:354
+#: includes/admin/pages/class-extend-settings-page.php:396
+#: includes/admin/pages/class-extend-settings-page.php:446
+#: includes/admin/pages/class-extend-settings-page.php:473
+#: includes/admin/pages/class-extend-settings-page.php:509
+msgid "Enable."
 msgstr ""
 
 #: includes/admin/pages/class-extend-settings-page.php:363
 #: includes/admin/pages/class-extend-settings-page.php:405
+msgid "Insert Elements"
+msgstr ""
+
+#: includes/admin/pages/class-extend-settings-page.php:374
+#: includes/admin/pages/class-extend-settings-page.php:416
 msgid "Priority"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:373
+#: includes/admin/pages/class-extend-settings-page.php:384
 msgid "The farther left you slide, the more the output will be directed to the head tag."
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:415
+#: includes/admin/pages/class-extend-settings-page.php:426
 msgid "The farther left you slide, the more the output will be directed to the body tag."
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:444
+#: includes/admin/pages/class-extend-settings-page.php:455
 msgid "Extend all article titles"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:450
+#: includes/admin/pages/class-extend-settings-page.php:461
 msgid "* The title of the article is set at location specified by the \"{title}\" keyword."
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:471
+#: includes/admin/pages/class-extend-settings-page.php:482
 msgid "Extend all page titles"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:477
+#: includes/admin/pages/class-extend-settings-page.php:488
 msgid "* The title of the page is set at location specified by the \"{title}\" keyword."
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:507
+#: includes/admin/pages/class-extend-settings-page.php:518
 msgid "Background image"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:514
-#: includes/admin/pages/class-extend-settings-page.php:516
+#: includes/admin/pages/class-extend-settings-page.php:525
+#: includes/admin/pages/class-extend-settings-page.php:527
 msgid "Select a background image"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:515
+#: includes/admin/pages/class-extend-settings-page.php:526
 msgid "Set as a background image"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:517
+#: includes/admin/pages/class-extend-settings-page.php:528
 msgid "Change the background image"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:518
+#: includes/admin/pages/class-extend-settings-page.php:529
 msgid "Remove the background image"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:525
+#: includes/admin/pages/class-extend-settings-page.php:536
 msgid "Background color"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:537
+#: includes/admin/pages/class-extend-settings-page.php:548
 msgid "Transparency"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:547
+#: includes/admin/pages/class-extend-settings-page.php:558
 msgid "The farther left you slide, the more transparent the image becomes."
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:553
+#: includes/admin/pages/class-extend-settings-page.php:564
 msgid "DOM to make transparent"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:560
+#: includes/admin/pages/class-extend-settings-page.php:571
 msgid "Enter the DOM elements you want to make transparent."
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:575
-msgid "EditURI"
-msgstr ""
-
-#: includes/admin/pages/class-extend-settings-page.php:581
-msgid "Stop the output of EditURI link."
-msgstr ""
-
-#: includes/admin/pages/class-extend-settings-page.php:590
+#: includes/admin/pages/class-extend-settings-page.php:586
 msgid "RSS Eye-Catch"
 msgstr ""
 
-#: includes/admin/pages/class-extend-settings-page.php:596
+#: includes/admin/pages/class-extend-settings-page.php:592
 msgid "Display Featured Images in RSS Feeds."
+msgstr ""
+
+#: includes/admin/pages/class-extend-settings-page.php:601
+msgid "EditURI"
+msgstr ""
+
+#: includes/admin/pages/class-extend-settings-page.php:607
+msgid "Stop the output of EditURI link."
+msgstr ""
+
+#: includes/admin/pages/class-extend-settings-page.php:616
+msgid "Implode Frontend CSS"
+msgstr ""
+
+#: includes/admin/pages/class-extend-settings-page.php:622
+msgid "Stop the output of implode frontend css."
 msgstr ""

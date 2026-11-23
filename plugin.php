@@ -7,7 +7,7 @@
  * Requires PHP:       8.3
  * Author:             Angelmaneuver
  * Author URI:         https://github.com/Angelmaneuver
- * Version:            0.2.0
+ * Version:            0.2.1
  * License:            GNU General Public License V3
  * License URI:        https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain:        sketchpad-modified-plugin

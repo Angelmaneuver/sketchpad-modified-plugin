@@ -30,3 +30,4 @@ if ( is_admin() ) {
  */
 require_once __DIR__ . '/hooks/add-head.php';
 require_once __DIR__ . '/hooks/add-body.php';
+require_once __DIR__ . '/hooks/remove-jetpack-features.php';

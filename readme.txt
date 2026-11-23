@@ -5,7 +5,7 @@ Donate link:
 Tags:
 Requires at least: 7.1
 Tested up to     : Latest
-Stable tag       : 0.2.0
+Stable tag       : 0.2.1
 License:           GNU General Public License V3
 License URI:       http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -59,6 +59,9 @@ Change the language in the admin settings screen. Settings > General > Site Lang
 1. Plugin page.
 
 == Changelog ==
+
+= V0.2.1 - 2026.11.23 =
+* Update : Feature enhancements (Stop the output of implode frontend css.).
 
 = V0.2.0 - 2026.11.23 =
 * Update : Feature enhancements (Site setting, Post setting, Admin page setting, Other setting).
